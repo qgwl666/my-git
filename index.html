@@ -3,11 +3,17 @@
 <head>
     <title>我的 GitHub Pages</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>🎉 GitHub Pages 更新啦！</h1>
-    <p>这是一个简单的测试页面</p>
-    <p>你可以访问 <a href="data.json">data.json</a> 查看 JSON 数据</p>
-    <p style="color: gray;">最后更新：2026-05-02</p>
+    <div class="container">
+        <h1>🎉 GitHub Pages 小网站</h1>
+        <p>这是一个简单的静态网站，包含 CSS 样式和 JavaScript 交互。</p>
+        <p>你可以点击下面的按钮加载 JSON 数据：</p>
+        <button class="btn" id="load-json">加载 data.json</button>
+        <div class="json-data" id="json-container" style="display: none;"></div>
+        <p class="update-time">最后更新：2026-05-02</p>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
