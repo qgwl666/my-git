@@ -9,27 +9,27 @@ const pageData = {
       },
       {
         text: "文章",
-        link: "./index.html?js=https://env-00jxu1jxgwq6-static.normal.cloudstatic.cn/pages/page2.js",
+        link: "./index.html?js=./js/page2.js",
         isCurrent: false
       },
       {
         text: "音乐",
-        link: "./index.html?js=https://env-00jxu1jxgwq6-static.normal.cloudstatic.cn/pages/page3.js",
+        link: "./index.html?js=./js/page3.js",
         isCurrent: false
       },
       {
         text: "视频",
-        link: "./index.html?js=https://env-00jxu1jxgwq6-static.normal.cloudstatic.cn/pages/page4.js",
+        link: "./index.html?js=./js/page4.js",
         isCurrent: false
       },
       {
         text: "相册",
-        link: "./index.html?js=https://env-00jxu1jxgwq6-static.normal.cloudstatic.cn/pages/page5.js",
+        link: "./index.html?js=./js/page5.js",
         isCurrent: false
       },
       {
         text: "精彩",
-        link: "./index.html?js=https://env-00jxu1jxgwq6-static.normal.cloudstatic.cn/pages/page6.js",
+        link: "./index.html?js=./js/page6.js",
         isCurrent: false
       }
     ]

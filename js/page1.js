@@ -9,27 +9,27 @@ const pageData = {
       },
       {
         text: "文章",
-        link: "./index.html?js=https://env-00jxu1jxgwq6-static.normal.cloudstatic.cn/pages/page2.js",
+        link: "./index.html?js=js/page2.js",
         isCurrent: false
       },
       {
         text: "音乐",
-        link: "./index.html?js=https://env-00jxu1jxgwq6-static.normal.cloudstatic.cn/pages/page3.js",
+        link: "./index.html?js=js/page3.js",
         isCurrent: false
       },
       {
         text: "视频",
-        link: "./index.html?js=https://env-00jxu1jxgwq6-static.normal.cloudstatic.cn/pages/page4.js",
+        link: "./index.html?js=js/page4.js",
         isCurrent: false
       },
       {
         text: "相册",
-        link: "./index.html?js=https://env-00jxu1jxgwq6-static.normal.cloudstatic.cn/pages/page5.js",
+        link: "./index.html?js=js/page5.js",
         isCurrent: false
       },
       {
         text: "精彩",
-        link: "./index.html?js=https://env-00jxu1jxgwq6-static.normal.cloudstatic.cn/pages/page6.js",
+        link: "./index.html?js=js/page6.js",
         isCurrent: false
       }
     ]
@@ -41,7 +41,7 @@ const pageData = {
         <p style="font-size: 13px; color: #666;">一个简洁的静态网站</p>
       </div>
 
-      <a href="./index.html?js=https://env-00jxu1jxgwq6-static.normal.cloudstatic.cn/pages/1-1.js" style="display: block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 10px; padding: 15px; text-decoration: none; color: white; margin-bottom: 20px;">
+      <a href="./index.html?js=js/1-1.js" style="display: block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 10px; padding: 15px; text-decoration: none; color: white; margin-bottom: 20px;">
         <div style="display: flex; align-items: center; justify-content: space-between;">
           <div>
             <div style="font-weight: 500; font-size: 15px; margin-bottom: 4px;">📋 更新日志</div>
