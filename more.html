@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<title>页面模板</title>
+	</head>
+	<body>
+		<!-- 菜单插槽 -->
+		<div id="nvMenuSlots">
+			<ul>
+				<li><a href="javascript:scrollTo({top:0,left:0,behavior:'smooth'})">回到顶部 TOP</a></li>
+				<li><a href="#">页面导航1</a></li>
+				<li><a href="#">页面导航2</a></li>
+			</ul>
+		</div>
+
+		<style>
+			.link-list { padding-top:24px }
+			.link-list h2 { font-size:20px; font-weight:600; color:#333; margin-bottom:18px }
+			.link-list .grid { display:grid; gap:10px }
+			.link-list .grid a {
+				display:flex; align-items:center; justify-content:space-between;
+				padding:14px 16px; background:#f8f8f8; border-radius:10px;
+				text-decoration:none; color:#333; font-size:15px
+			}
+			.link-list .grid a:hover { background:#e8f0fe }
+			.link-list .grid a .arrow { color:#bbb; font-size:13px }
+		</style>
+
+		<div class="page-wrap link-list">
+			<h2>更多精彩内容</h2>
+			<div class="grid">
+				<a href="#"><span>推荐内容1</span><span class="arrow">&gt;</span></a>
+				<a href="#"><span>推荐内容2</span><span class="arrow">&gt;</span></a>
+				<a href="#"><span>推荐内容3</span><span class="arrow">&gt;</span></a>
+				<a href="#"><span>推荐内容4</span><span class="arrow">&gt;</span></a>
+				<a href="#"><span>推荐内容5</span><span class="arrow">&gt;</span></a>
+				<a href="#"><span>推荐内容6</span><span class="arrow">&gt;</span></a>
+				<a href="#"><span>推荐内容7</span><span class="arrow">&gt;</span></a>
+				<a href="#"><span>推荐内容8</span><span class="arrow">&gt;</span></a>
+				<a href="#"><span>推荐内容9</span><span class="arrow">&gt;</span></a>
+				<a href="#"><span>推荐内容10</span><span class="arrow">&gt;</span></a>
+			</div>
+		</div>
+
+		<script src="navbar.js"></script>
+	</body>
+</html>
